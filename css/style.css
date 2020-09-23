@@ -1,9 +1,29 @@
 #profile{
-    width: 250px;
-    height: 250px;
+    width: 380px;
+    height: 350px;
     background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position:center;
-    border-radius:250px;
-    margin: 15px;
+    /* border-radius:250px;
+    margin: 15px; */
+    margin-left: -15px;
+}
+#contact{
+    background: rgb(173, 168, 168);
+}
+#hardSkill{
+    background: rgb(94, 91, 91);
+}
+#language{
+    background: rgb(49, 48, 48);
+}
+h5{
+    text-decoration: underline;
+    text-decoration-style: solid ;
+}
+.icon{
+    margin-left: -140px;
+}
+#interest{
+    background: rgb(223, 219, 219);
 }
