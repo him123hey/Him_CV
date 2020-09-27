@@ -25,5 +25,8 @@ h5{
     margin-left: -140px;
 }
 #interest{
-    background: rgb(223, 219, 219);
+    background: rgb(0, 0, 0);
+}
+#interest-border{
+    border-left: dashed;
 }
