@@ -103,14 +103,14 @@ $(document).ready(function () {
                             <h6>Name: ${element.data().ReferencesName}</h6>
                             <h6>Position: ${element.data().ReferencePosition}</h6>
                             <h6>Office: ${element.data().ReferenceOffice}</h6>
-                            <h6>Office: ${element.data().ReferencePhone}</h6>
+                            <h6>Phone Number: ${element.data().ReferencePhone}</h6>
                             <h6>Email: ${element.data().ReferencesEmail}</h6>
                         </div>
                         <div class="col-md-6" col-sm-12 id="interest-border">
                             <h6>Name: ${element.data().ReferencesName1}</h6>
                             <h6>Position: ${element.data().ReferencePosition1}</h6>
                             <h6>Office: ${element.data().ReferenceOffice}</h6>
-                            <h6>Office: ${element.data().ReferencePhone1}</h6>
+                            <h6>Phone Number: ${element.data().ReferencePhone1}</h6>
                             <h6>Email: ${element.data().ReferencesEmail1}</h6>
                         </div>
                     </div>
