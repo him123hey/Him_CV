@@ -12,10 +12,11 @@ $(document).ready(function () {
                     <h6>${element.data().aboutMe}</h6>
                 </div>
             </div>
-            <div class="row bg-warning">
-                <div class="col-4 p-4 bg-dark text-white">
+            <div class="row" id="position">
+                <div class="col-4 col-sm-12 p-4 text-white">
                     <h5>Apply for: ${element.data().position}</h5>
                 </div>
+                <div class="col-4 bg-warning"></div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-12 text-white p-3" id="contact">
@@ -98,14 +99,14 @@ $(document).ready(function () {
                 <div class="col-md-8 col-sm-12 p-3">
                     <h5>Refferences</h5>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6 col-sm-12">
                             <h6>Name: ${element.data().ReferencesName}</h6>
                             <h6>Position: ${element.data().ReferencePosition}</h6>
                             <h6>Office: ${element.data().ReferenceOffice}</h6>
                             <h6>Office: ${element.data().ReferencePhone}</h6>
                             <h6>Email: ${element.data().ReferencesEmail}</h6>
                         </div>
-                        <div class="col-6" id="interest-border">
+                        <div class="col-md-6" col-sm-12 id="interest-border">
                             <h6>Name: ${element.data().ReferencesName1}</h6>
                             <h6>Position: ${element.data().ReferencePosition1}</h6>
                             <h6>Office: ${element.data().ReferenceOffice}</h6>

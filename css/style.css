@@ -1,11 +1,10 @@
+
 #profile{
     width: 380px;
     height: 350px;
     background-image: url(../images/profile.jpg);
     background-size: cover;
     background-position:center;
-    /* border-radius:250px;
-    margin: 15px; */
     margin-left: -15px;
 }
 #contact{
