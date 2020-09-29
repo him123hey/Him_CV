@@ -4,10 +4,10 @@ $(document).ready(function () {
         data.forEach(element => {
             result += `
             <div class="row">
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12" id="cover-profile">
                     <div id="profile"></div>
                 </div>
-                <div class="col-md-8 col-sm-12 pt-5">
+                <div class="col-md-8 col-sm-12 p-3">
                     <h2>About Me</h2>
                     <h6>${element.data().aboutMe}</h6>
                 </div>
@@ -106,7 +106,7 @@ $(document).ready(function () {
                             <h6>Phone Number: ${element.data().ReferencePhone}</h6>
                             <h6>Email: ${element.data().ReferencesEmail}</h6>
                         </div>
-                        <div class="col-md-6" col-sm-12 id="interest-border">
+                        <div class="col-md-6" col-sm-12 id="references-border">
                             <h6>Name: ${element.data().ReferencesName1}</h6>
                             <h6>Position: ${element.data().ReferencePosition1}</h6>
                             <h6>Office: ${element.data().ReferenceOffice}</h6>
