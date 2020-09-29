@@ -3,20 +3,20 @@ $(document).ready(function () {
         var result = "";
         data.forEach(element => {
             result += `
-            <div class="row">
+            <div class="row bg-dark text-white">
                 <div class="col-md-4 col-sm-12" id="cover-profile">
                     <div id="profile"></div>
                 </div>
-                <div class="col-md-8 col-sm-12 p-3">
+                <div class="col-md-8 col-sm-12 p-3" id="about">
                     <h2>About Me</h2>
                     <h6>${element.data().aboutMe}</h6>
                 </div>
             </div>
             <div class="row" id="position">
-                <div class="col-4 col-sm-12 p-4 text-white">
+                <div class="col-md-4 col-sm-12 p-4 text-white">
                     <h5>Apply for: ${element.data().position}</h5>
                 </div>
-                <div class="col-4 bg-warning"></div>
+                <div class="col-md-4"></div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-12 text-white p-3" id="contact">
